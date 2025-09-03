@@ -21,7 +21,7 @@ In contrast, our framework introduces three types of embeddings:
 
 By separating these components, the learned embeddings gain clearer semantics, making attribute editing more interpretable and controllable — and crucially, the method **does not require a classifier at inference time**.
 
-Additionally, in our unsupervised setup, we train pseudo-word embeddings using `"unknown"` as the prompt token across datasets, and achieve results qualitatively consistent with the original TIME approach.
+Additionally, in our unsupervised setup, we train pseudo-word embeddings using **`"unknown"`** as the prompt token across datasets, and achieve results qualitatively consistent with the original TIME approach.
 
 ---
 
