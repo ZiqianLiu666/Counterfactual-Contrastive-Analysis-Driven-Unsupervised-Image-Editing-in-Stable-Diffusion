@@ -21,6 +21,11 @@ In contrast, our framework introduces three types of embeddings:
 
 By separating these components, the learned embeddings gain clearer semantics, making attribute editing more interpretable and controllable — and crucially, the method **does not require a classifier at inference time**.
 
+此外，我们还消融比较了三种训练伪词嵌入的训练方式，从而发现第三种训练策略是最好的，且优于原文章(TIME)的表现。
+
+![Strategy](IMAGES/Train_way.jpg)
+![Strategy](IMAGES/Strategy_results-1.png)
+
 Additionally, in our unsupervised setup, we train pseudo-word embeddings using **`"unknown"`** as the prompt token across datasets, and achieve results qualitatively consistent with the original TIME approach.
 
 ---
