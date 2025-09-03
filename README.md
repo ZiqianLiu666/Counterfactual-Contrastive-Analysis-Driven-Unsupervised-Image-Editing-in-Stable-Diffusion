@@ -1,4 +1,4 @@
-# Contrastive Analysis for Unsupervised Image Editing in Stable Diffusion
+# Counterfactual/Contrastive Analysis for Unsupervised Image Editing in Stable Diffusion
 
 This project extends the idea of [TIME (Counterfactual Analysis)](https://github.com/guillaumejs2403/TIME) by proposing an improved **Contrastive Analysis (CA) framework**.
 Our approach explicitly disentangles **context**, **common**, and **salient** factors between two domains, enabling more interpretable **attribute disentanglement and editing** in Stable Diffusion — **without relying on classifiers** during training or inference.
